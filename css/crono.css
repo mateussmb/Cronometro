@@ -13,21 +13,22 @@
 
 body {
     background-color: black;
+    margin-top: 15%;
 }
 
 #btn{
-    margin-top: 2%;
-    margin-left: 41%;
-    display: flex;
-    
+    margin-top: 40%;
+    margin: auto;
+    width: 400px;
+
 }
 button {
-    width: 9%;
+    width: 18%;
     height: 50px;
-    padding: 0%;
     cursor: pointer;
     margin: 10px;
     font-size: large;
+    margin-left: 8%;
     
 }
 
@@ -35,10 +36,12 @@ button {
 
 #txt {
     text-align: center;
-    margin-top: 15%;
     font-family:'digital';
     color: #DF7401;
-    
+    margin: auto;
+    width: 300px;
+    display: flex;
+
     
     
 }
@@ -47,26 +50,10 @@ button {
 }
 
 #seg {
-    margin-top:  -2.5%;
-    margin-left: 17% ;
+    margin-top:  15%;
 }
 
-@media (max-width: 600px)
-{
-  button{
-    font-size: larger;
-    width: 20%;
-    
-  }
-  #btn  {
-    margin-left: 20%;
-  }
-  
-  #seg {
-    margin-top: -10%;
-    margin-left: 65%;
-  }
-}
+
 
 
 .bg-green {
