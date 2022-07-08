@@ -1,0 +1,116 @@
+
+* {
+    margin: 0px ;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'digital';
+    src: url('Technology.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+}
+
+#btn{
+    margin-top: 2%;
+    margin-left: 41%;
+    display: flex;
+    
+}
+button {
+    width: 9%;
+    height: 50px;
+    padding: 0%;
+    cursor: pointer;
+    margin: 10px;
+    font-size: large;
+    
+}
+
+
+
+#txt {
+    text-align: center;
+    margin-top: 15%;
+    font-family:'digital';
+    color: #DF7401;
+    
+    
+    
+}
+#counter {
+    font-size: 100pt;
+}
+
+#seg {
+    margin-top:  -2.5%;
+    margin-left: 17% ;
+}
+
+@media (max-width: 600px)
+{
+  button{
+    font-size: larger;
+    width: 20%;
+    
+  }
+  #btn  {
+    margin-left: 20%;
+  }
+  
+  #seg {
+    margin-top: -10%;
+    margin-left: 65%;
+  }
+}
+
+
+.bg-green {
+    background: rgb(75, 168, 75) ;
+    color: white;
+}
+
+.bg-yellow {
+    color: white;
+    background: rgb(218, 151, 28);
+}
+
+.bg-red {
+    color: white;
+    background: rgb(233, 79, 79) ;
+}
+
+.bg-green:active {
+    transform: translateY(1px);
+  }
+  
+.bg-yellow:active {
+    transform: translateY(1px);
+  }
+
+  .bg-red:active {
+    transform: translateY(1px);
+  }
+
+
+.bg-green:hover {
+    background-color: rgb(60, 116, 53); 
+    color: white; 
+    
+  }
+
+.bg-yellow:hover {
+    background-color: rgb(179, 168, 70); 
+    color: white; 
+    
+  }
+
+.bg-red:hover {
+    background-color: rgb(172, 70, 70); 
+    color: white; 
+    
+  }
